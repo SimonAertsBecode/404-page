@@ -1,0 +1,88 @@
+body {
+    background-color: rgba(248, 223, 207, 0.8) ;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    box-shadow: inset 10% black;
+    border: 20px;
+}
+
+header {
+    background-color: #f0eae6;
+    width: 100%;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px white;
+}
+
+header p {
+    margin: 0px;
+    padding: 50px;
+}
+
+.main {
+    background-color:#f0eae6;
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+}
+
+img {
+    width: 60%;
+    box-shadow: 0px 0px 4px rgb(223, 176, 115);
+    margin-top: 3%;
+    margin-left: 20%;
+    border-radius: 10%
+}
+
+.main p {
+    font-family: 'Potta One', cursive;
+}
+
+.erreur {
+    margin: 0px;
+    padding: 0px;
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 29%;
+}
+
+.chiffre {
+    margin: 0px;
+    font-size: 50px;
+    position: absolute;
+    top: 45%;
+    left: 58%;
+}
+
+nav, aside {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+nav aside, a {
+    padding: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+nav aside, a:hover {
+  border: 2px solid rgb(73, 19, 19);
+  background-color: rgb(73, 19, 19);
+  box-shadow: 0px 0px 4px rgb(20, 0, 0);
+  color: aliceblue;
+  padding: 1px;
+  border-radius: 40%;
